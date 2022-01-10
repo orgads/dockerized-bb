@@ -1,4 +1,4 @@
-m4_ifdef(`DEBIAN_RELEASE',,`m4_define(`DEBIAN_RELEASE',buster)')
+m4_ifdef(`DEBIAN_RELEASE',,`m4_define(`DEBIAN_RELEASE',bullseye)')
 m4_ifdef(`DEBIAN_VERSION',,`m4_define(`DEBIAN_VERSION',20210816)')
 m4_define(`BASE_DEBIAN',`')m4_dnl
 FROM debian:DEBIAN_RELEASE-DEBIAN_VERSION-slim
